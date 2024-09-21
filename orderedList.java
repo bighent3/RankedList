@@ -32,8 +32,6 @@ public class orderedList {
 
     }
     // Should this come before or after
-
-
     class Node {
         int data;
         Node next;
@@ -50,6 +48,16 @@ public class orderedList {
             root = null;
         }
     }
+
+    // Create binary search tree
+    // root equals null
+    // assign value to root
+    // compare next value to root
+    // if value is desired less that root move item to the left
+    // if item is desired more than the root move the item to the right
+    // if item already exist where item is compared to compare those two items
+    // if item does not exist in that spot move item to that spot
+    // move to the next item in the list
     public static void main(String[] args) {
         List<String> bob = new ArrayList<>();
         Scanner taco = new Scanner(System.in);     
